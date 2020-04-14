@@ -11,3 +11,65 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.results-box .holder {
+    max-width: 610px;
+    margin: 0 auto;
+    background: #fff;
+    padding: 44px 44px 8px;
+    border: 1px solid #ddd;
+}
+
+label {
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    cursor: default;
+    display: block;
+    font-size: 14px;
+    line-height: 49px;
+    font-weight: 700;
+    margin: 0 125px 0px 130px;
+    color: #acacac;
+    text-transform: uppercase;
+}
+
+button {
+
+    font-size: 14px;
+        margin: 0 5px 0px 130px;
+}
+
+select {
+	margin: 0 5px 0px 5px;
+}
+option {
+	 background: #e6e6e6;
+    color: #000;
+}
+
+* {
+    max-height: 1000000px;
+}
+
+*, :after, :before {
+    box-sizing: inherit;
+}
+
+.jcf-select .jcf-select-opener {
+    position: absolute;
+    top: 13px;
+    right: 16px;
+    position: absolute;
+    z-index: 1;
+    pointer-events: none;
+}
+
+.results-form .txt {
+    display: block;
+    text-align: right;
+    color: #acacac;
+    font-size: .907em;
+    line-height: 1.181em;
+    font-weight: 700;
+}
